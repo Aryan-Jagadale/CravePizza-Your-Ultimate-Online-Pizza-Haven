@@ -1,0 +1,31 @@
+<section class="flex justify-center pt-20">
+    <div class="w-full max-w-xs">
+        <form onsubmit="return false" class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4 border-2">
+            <div class="mb-4">
+                <label class="block text-gray-700 text-sm font-bold mb-2">
+                    Email
+                </label>
+                <input name="email"
+                    class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline cursor-not-allowed"
+                    id="username" type="email" value=<%= user.email %> readonly>
+            </div>
+            <div class="mb-6">
+                <label class="block text-gray-700 text-sm font-bold mb-2">
+                    Feedback
+                </label>
+                <textarea type="text" rows="6" id="feedback" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline" placeholder="How can we help you?"></textarea>
+            </div>
+            <div class="flex items-center justify-between">
+                <button
+                    id="submitFeedback"
+                    class="bg-orange-500 rounded-full text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                    type="submit">
+                    Send
+                </button>
+            </div>
+        </form>
+        <p class="text-center text-gray-500 text-xs">
+            &copy;2021 All rights reserved.
+        </p>
+    </div>
+</section>
