@@ -4,7 +4,7 @@
 - This project is basically for Beginnner levels for integrating Node, Express and MongoDB. Note that Socket io is not used in it.
 
 ## Installation
-- After download or clone run npm install OR yarn install to install all the dependancies.
+- After download or clone run "npm install" OR "yarn install" to install all the dependancies.
 
 ## Features
 - Feedback system is also impemented.
@@ -18,4 +18,9 @@
 - Also make sure Noty package is depreceiated. To work this project, {"noty": "^3.2.0-beta"} install this version.
 - If there is problem in webpack.mix.js then you can create it manually.
 
+## Tutorial
+- https://youtube.com/playlist?list=PLXQpH_kZIxTVRmXQN9J0Az76te5mAreLV  --- Watch this tutorial on Youtube to how to do it from scratch.
+- Also if you face error in tutorial You can have my repo for references with updated packages.
+
+🙏 If you find this repo helpful then don't forget to give a start ❇️ to this repository. :)
 
