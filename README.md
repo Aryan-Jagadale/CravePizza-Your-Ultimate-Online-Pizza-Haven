@@ -1,4 +1,4 @@
-# Realtime pizza app using Node-express-mongodb
+# CravePizza: Your Ultimate Online Pizza Haven
 
 ## General Information
 - This repository contains the source code and documentation for an e-commerce website that incorporates a robust payment system. The website provides a platform for users to browse, select, and purchase products or services securely and conveniently.
